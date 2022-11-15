@@ -6,17 +6,22 @@
     background:rgba(0, 0, 0, 0.205);
     // background-color: black;
     // opacity: 0.4;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-    gap: 1rem;
-    margin-right: 2rem;
-    li {
-        color: darkturquoise;
+    nav {
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+            margin-right: 2rem;
+            li {
+                a {
+                    text-decoration: none;
+                    color: darkturquoise !important;
+                }
+            }
+        }
     }
 }
+
 
 // .box {
 //     margin: 0 auto;

@@ -9,20 +9,21 @@ import { FaTelegram } from 'react-icons/fa'
 const About = () => {
   return (
     <>
-    <div className='social-icons'>
-      <ul className='social-ul'>
-        <li className='social-icon'><BsGithub/></li>
-        <li className='social-icon'><AiFillLinkedin/></li>
-        <li className='social-icon'><FaTelegram/></li>
-      </ul>
-      <p>Follow me</p>
-      <div></div>
-    </div>
-    <div className='about'>
-        <div><Type /></div>
-        <div className='keyboardImage'>
-          <img src={keyboard} alt="" />
-        </div>
+    <div id='about'>
+      <div className='social-icons'>
+        <ul className='social-ul'>
+          <li className='social-icon'><BsGithub/></li>
+          <li className='social-icon'><AiFillLinkedin/></li>
+          <li className='social-icon'><FaTelegram/></li>
+        </ul>
+        <p>Follow me</p>
+      </div>
+      <div className='about'>
+          <div><Type /></div>
+          <div className='keyboardImage'>
+            <img src={keyboard} alt="" />
+          </div>
+      </div>
     </div>
     </>
   )

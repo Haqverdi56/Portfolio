@@ -1,15 +1,16 @@
 .projects {
     padding: 2rem;
-    .pro-div {
-        // border: 2px solid red;
-    }
+    // .pro-div {
+    //     border: 2px solid red;
+    // }
     border: 2px solid black;
     .project-header{
         color: lightblue;
         text-align: center;
+        margin-bottom: 10rem;
     }
     .project-links {
-        border: 1px solid yellow;
+        // border: 1px solid yellow;
         width: 100%;
         padding: 2rem;
         display: flex;
@@ -19,6 +20,7 @@
         // gap: 2rem;
         img {
             width: 15rem;
+            height: 11rem;
             &:hover{
                 transform: scale(0.9);
                 transition: 0.4s;

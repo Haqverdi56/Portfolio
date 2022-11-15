@@ -7,7 +7,7 @@ import ecommerce from '../../assests/images/ecommerce.png'
 const Projects = () => {
   return (
     <>
-    <div className='projects'>
+    <div className='projects' id='projects'>
       <div className='pro-div'><h1 className='project-header'>PROJECTS</h1></div>
       <Fade left>
         <div className='project-links'>
@@ -18,6 +18,10 @@ const Projects = () => {
           <div>
             <a href="https://github.com/Haqverdi56/Commerse-Project" target="_blank"><img src={ecommerce} /></a>
             <p>E-commerce Project</p>
+          </div>
+          <div>
+            <a href="https://carousel-4mxlgbyx2-haqverdi56.vercel.app/" target="_blank"><img src="https://codingmasterweb.com/wp-content/uploads/2021/11/Copy-of-Copy-of-for-thumbnail.png" /></a>
+            <p>Carousel</p>
           </div>
         </div>
       </Fade>

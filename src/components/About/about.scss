@@ -35,11 +35,11 @@
         white-space: nowrap;
         position: relative;
         &::after {
+            content: "";
             top: 9px;
             right: -55px;
             width: 40px;
             height: 1px;
-            content: "";
             display: block;
             position: absolute;
             background-color: white;

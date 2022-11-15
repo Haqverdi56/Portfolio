@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./App.scss";
 import Header from './components/Header/Header'
 import Particlies from "./Particlies";
@@ -18,7 +18,7 @@ function App() {
           <Particlies dontMove={dontMove} />
           <About />
         </div>
-        <Skills/>
+        <Skills />
         <Projects/>
         {/* <button onClick={()=> {setDontMove(dontMove ? false : true)}}>Don`t hover</button> */}
       </div>

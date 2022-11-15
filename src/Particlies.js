@@ -1,7 +1,7 @@
 import React from 'react'
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import keyboardImg from "../src/assests/images/keyboard.jpg"
+// import keyboardImg from "../src/assests/images/keyboard.jpg"
 
 const Particlies = ({dontMove}) => {
 
@@ -60,9 +60,9 @@ const Particlies = ({dontMove}) => {
                 },
                 links: {
                 color: "#ffffff",
-                distance: 200,
+                distance: 260,
                 enable: true,
-                opacity: 0.3,
+                opacity: 0.5,
                 width: 1,
                 },
                 collisions: {
@@ -83,8 +83,8 @@ const Particlies = ({dontMove}) => {
                     enable: true,
                     area: 800,
                 },
-                value: 60,
-                max:65
+                value: 55,
+                max: 80,
                 },
                 opacity: {
                 value: 0.4,
