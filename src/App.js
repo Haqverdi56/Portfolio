@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import "./App.scss";
 import Header from './components/Header/Header'
 import Particlies from "./Particlies";
@@ -8,14 +8,16 @@ import Projects from "./components/Projects/Projects";
 
 
 function App() {
-  const [dontMove, setDontMove] = useState(true)
+  // const [dontMove, setDontMove] = useState(true)
   
   return (
     <>
       <div className="App">
         <div className="particles-head">
           <Header />
-          <Particlies dontMove={dontMove} />
+          <Particlies 
+          // dontMove={dontMove} 
+          />
           <About />
         </div>
         <Skills />

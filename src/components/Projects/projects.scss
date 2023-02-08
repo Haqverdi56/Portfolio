@@ -21,6 +21,7 @@
         img {
             width: 15rem;
             height: 11rem;
+            object-fit: cover;
             &:hover{
                 transform: scale(0.9);
                 transition: 0.4s;
