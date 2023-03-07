@@ -19,7 +19,7 @@ const Projects = () => {
             <p>Crud operations</p>
           </div>
           <div>
-            <a href="https://github.com/Haqverdi56/Commerse-Project" >
+            <a href="https://e-commerce-full-stack-pink.vercel.app/" >
               <img src={ecommerce} alt="" />
             </a>
             <p>E-commerce Project</p>
