@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.scss"
 import Type from "../../Typewriter/Typewriter";
-import keyboard from '../../assests/images/keyboard.jpg'
+import photo from '../../assests/images/code academy.jpg'
 import { BsGithub } from 'react-icons/bs'
 import { AiFillLinkedin } from 'react-icons/ai'
 import { FaTelegram } from 'react-icons/fa'
@@ -21,7 +21,7 @@ const About = () => {
       <div className='about'>
           <div><Type /></div>
           <div className='keyboardImage'>
-            <img src={keyboard} alt="" />
+            <img src={photo} alt="" />
           </div>
       </div>
     </div>

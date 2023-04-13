@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Skills/skills.scss'
-import { SiJavascript, SiTailwindcss, SiRedux } from 'react-icons/si'
+import { SiJavascript, SiTailwindcss, SiRedux, SiNodedotjs, SiExpress, SiMongodb } from 'react-icons/si'
 import { IoLogoCss3 } from 'react-icons/io'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { FaSass, FaReact } from 'react-icons/fa'
@@ -27,6 +27,9 @@ const Skills = () => {
               <FaReact style={{color:"cyan"}}/>
               <SiRedux style={{color:"blueviolet"}}/>
               <TbApi style={{color:"blueviolet"}}/>
+              <SiNodedotjs style={{color:"green"}}/>
+              <SiExpress style={{color:"white"}}/>
+              <SiMongodb style={{color:"green"}}/>
             </div>
         </div>
       </Fade>
