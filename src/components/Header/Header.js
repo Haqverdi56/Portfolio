@@ -12,13 +12,13 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <Link spy={true} smooth={true} offset={50} duration={700} to="about">About</Link>
+            <Link spy={true} smooth={true} offset={0} duration={1000} to="about">About</Link>
           </li>
           <li>
-            <Link spy={true} smooth={true} offset={50} duration={700} to="skills">Skills</Link>
+            <Link spy={true} smooth={true} offset={-50} duration={900} to="skills">Skills</Link>
           </li>
           <li>
-            <Link spy={true} smooth={true} offset={50} duration={700} to="projects">Projects</Link>
+            <Link spy={true} smooth={true} offset={50} duration={900} to="projects">Projects</Link>
           </li>
         </ul>
       </nav>

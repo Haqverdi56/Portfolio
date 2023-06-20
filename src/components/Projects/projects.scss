@@ -1,8 +1,5 @@
 .projects {
     padding: 2rem;
-    // .pro-div {
-    //     border: 2px solid red;
-    // }
     border: 2px solid black;
     .project-header{
         color: lightblue;
@@ -10,13 +7,12 @@
         margin-bottom: 10rem;
     }
     .project-links {
-        // border: 1px solid yellow;
         width: 100%;
         padding: 2rem;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        gap: 3rem;
+        gap: 2rem;
         img {
             width: 15rem;
             height: 11rem;

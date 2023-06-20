@@ -3,9 +3,10 @@
     position: fixed;
     bottom: 50%;
     color: aquamarine;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     opacity: 0.6;
     transform: translate(40%, 50%);
+    z-index: 999;
     &:hover {
         opacity: 1;
         transition: 0.3s;
@@ -17,6 +18,7 @@
         gap: 0;
         margin-bottom: 1rem;
         li {
+            list-style: none;
             &:active {
                 transform: scale(0.8);
                 transition: 0.2s;
@@ -65,16 +67,14 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .social-icons {
-        display: none;
-    }
     .about {
         // height: 60%;
+        gap: 5rem;
         flex-direction: column;
         .keyboardImage {
             img {
                 width: 14rem;
-                height: 10rem;
+                height: 100%;
             }
         }
     }

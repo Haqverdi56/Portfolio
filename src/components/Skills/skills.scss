@@ -8,12 +8,12 @@
         align-items: center;
         .skills-logos {
             width: 80%;
-            font-size: 3rem;
+            font-size: 5rem;
             padding: 1rem;
             display: flex;
-            justify-content: space-evenly;
+            // justify-content: space-evenly;
             flex-wrap: wrap;
-            gap: 1rem;
+            gap: 6rem;
         }
     }
 }
@@ -29,9 +29,11 @@
 @media only screen and (max-width: 600px) {
     .skills {
         .skills-logos {
-            font-size: 2rem;
+            font-size: 2.5rem !important;
+            gap: 2rem !important;
             align-items: center;
-            justify-content: start;
+            // justify-content: start;
+            justify-content: space-evenly;
         }
     
     }
