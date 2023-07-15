@@ -1,7 +1,7 @@
 import React from 'react'
 import './projects.scss'
 import { Fade } from 'react-reveal'
-import crud from '../../assests/images/crud.jpg'
+import chart from '../../assests/images/chartjs.jpg'
 import ecommerce from '../../assests/images/ecommerce.png'
 import bubblegame from '../../assests/images/undraw_Gaming_re_cma2.png'
 import ipAddress from '../../assests/images/ipaddress.jpg'
@@ -62,10 +62,10 @@ const Projects = () => {
             <p>IP Adress Tracker</p>
           </div>
           <div>
-            <a href="https://github.com/Haqverdi56/Crud" target='_blank' rel="noreferrer">
-              <img src={crud} alt="" />
+            <a href="https://chart-example-psi.vercel.app/" target='_blank' rel="noreferrer">
+              <img src={chart} alt="" />
             </a>
-            <p>Crud operations</p>
+            <p>Charts</p>
           </div>
         </div>
       </Fade>
