@@ -5,6 +5,7 @@ import chart from '../../assests/images/chartjs.jpg'
 import ecommerce from '../../assests/images/ecommerce.png'
 import bubblegame from '../../assests/images/undraw_Gaming_re_cma2.png'
 import ipAddress from '../../assests/images/ipaddress.jpg'
+import todoimg from '../../assests/images/todo_undraw.svg'
 
 const Projects = () => {
   return (
@@ -24,6 +25,12 @@ const Projects = () => {
               <img alt="" src="https://codingmasterweb.com/wp-content/uploads/2021/11/Copy-of-Copy-of-for-thumbnail.png" />
             </a>
             <p>Carousel</p>
+          </div>
+          <div>
+            <a href="https://todo-tau-pearl.vercel.app/" target='_blank' rel="noreferrer">
+              <img alt="" style={{backgroundColor:"white", padding: '10px'}} src={todoimg} />
+            </a>
+            <p>Todo App</p>
           </div>
           <div>
             <a href="https://weather-khaki-five.vercel.app/" target='_blank' rel="noreferrer">
