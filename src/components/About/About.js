@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.scss"
 import Type from "../../Typewriter/Typewriter";
-import photo from '../../assests/images/code academy.jpg'
+import photo from '../../assests/images/profile photo.jfif'
 import { BsGithub } from 'react-icons/bs'
 import { AiFillLinkedin } from 'react-icons/ai'
 import { FaTelegram } from 'react-icons/fa'
