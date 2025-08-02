@@ -12,7 +12,7 @@ const TypewriterJS = () => {
             autoStart: true,
             loop: true,
             delay: 40,
-            strings: ["Front end developer", "React Developer"],
+            strings: ["Frontend Developer", "React Developer", "MERN Developer"],
           }}
         />
       </div>

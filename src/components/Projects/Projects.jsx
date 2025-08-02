@@ -21,12 +21,6 @@ const Projects = () => {
             <p>E-commerce Project</p>
           </div>
           <div>
-            <a href="https://carousel-4mxlgbyx2-haqverdi56.vercel.app/" target='_blank' rel="noreferrer">
-              <img alt="" src="https://codingmasterweb.com/wp-content/uploads/2021/11/Copy-of-Copy-of-for-thumbnail.png" />
-            </a>
-            <p>Carousel</p>
-          </div>
-          <div>
             <a href="https://todo-tau-pearl.vercel.app/" target='_blank' rel="noreferrer">
               <img alt="" style={{backgroundColor:"white", padding: '10px'}} src={todoimg} />
             </a>
@@ -67,12 +61,6 @@ const Projects = () => {
               <img alt="" src={ipAddress} />
             </a>
             <p>IP Adress Tracker</p>
-          </div>
-          <div>
-            <a href="https://chart-example-psi.vercel.app/" target='_blank' rel="noreferrer">
-              <img src={chart} alt="" />
-            </a>
-            <p>Charts</p>
           </div>
         </div>
       </Fade>
