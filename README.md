@@ -1,12 +1,50 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my **Fullstack Portfolio Website**, built using **React** and **Framer Motion** on the frontend, and powered by **Node.js/Express** and **MongoDB** on the backend. This project serves as a personal platform to showcase my work, technical skills, and contact information in an interactive and visually appealing way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+👉 [Visit Live Site]([https://your-portfolio-url.com](https://portfolio-haki.vercel.app/))
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+
+React frontend (Framer Motion animations)
+
+---
+
+## 🧰 Tech Stack
+
+### Frontend:
+- **React.js** – Modern UI library for building interactive interfaces.
+- **Framer Motion** – Smooth and responsive animations.
+- **Styled Components / CSS Modules** – Component-scoped styling.
+
+### Deployment:
+
+- **Frontend:** Vercel
+  
+---
+
+## ✨ Features
+
+- 📄 **About Me Section**
+- 💼 **Portfolio Projects Showcase**
+- 🛠️ **Skills / Tech Stack Overview**
+- 🧭 **Smooth page transitions** with Framer Motion
+
+---
+
+📬 Contact
+
+Feel free to reach out for feedback, job offers, or collaboration.
+
+Email: qhaqverdi56@gmail.com
+
+LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/haqverdi-quliyev-65b1ab202/)
+
+GitHub: [github.com/yourusername](https://github.com/Haqverdi56)
+
