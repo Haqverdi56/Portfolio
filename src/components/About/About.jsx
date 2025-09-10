@@ -26,7 +26,7 @@ const AboutSection = () => {
 						viewport={{ once: true }}
 					>
 						<p className='about-intro'>
-							Salam! Mən Haqverdi, fullstack web developer və texnologiya həvəskarıyam. Yüksək keyfiyyətli web tətbiqlər yaratmaq mənim ehtirasm.
+							Salam! Mən Haqverdi, Fullstack Web Developer və texnologiya həvəskarıyam. Yüksək keyfiyyətli web tətbiqlər yaratmaqdan zövq alıram.
 						</p>
 						<p>
 							Frontend və backend texnologiyalarında dərin bilik və təcrübəyə malikəm. React, Node.js, Python və digər müasir texnologiyalarla
