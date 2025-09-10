@@ -151,7 +151,7 @@ const HeroSection = () => {
 						>
 							<div className='image-container'>
 								<div className='image-backdrop' />
-								<img src='/public/haki.jfif' alt='Haqverdi Quliyev' className='hero-img' />
+								<img src='/haki.png' alt='Haqverdi Quliyev' className='hero-img' />
 							</div>
 						</motion.div>
 					</div>
