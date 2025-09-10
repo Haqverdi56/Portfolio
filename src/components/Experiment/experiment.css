@@ -1,0 +1,141 @@
+.experience {
+	background: white;
+}
+
+.experience-timeline {
+	position: relative;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.experience-timeline::before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 0;
+	bottom: 0;
+	width: 2px;
+	background: var(--gradient-primary);
+	transform: translateX(-50%);
+}
+
+.experience-item {
+	position: relative;
+	margin-bottom: 3rem;
+	width: calc(50% - 2rem);
+}
+
+.experience-item:nth-child(odd) {
+	left: 0;
+	text-align: right;
+}
+
+.experience-item:nth-child(even) {
+	left: calc(50% + 2rem);
+	text-align: left;
+}
+
+.experience-content {
+	background: white;
+	padding: 2rem;
+	border-radius: 1rem;
+	box-shadow: var(--shadow-lg);
+	position: relative;
+	transition: all 0.3s ease;
+}
+
+.experience-content:hover {
+	transform: translateY(-5px);
+	box-shadow: var(--shadow-xl);
+}
+
+.experience-content::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	width: 20px;
+	height: 20px;
+	background: var(--primary-color);
+	border-radius: 50%;
+	transform: translateY(-50%);
+	border: 4px solid white;
+	box-shadow: 0 0 0 4px var(--primary-color);
+}
+
+.experience-item:nth-child(odd) .experience-content::before {
+	right: -42px;
+}
+
+.experience-item:nth-child(even) .experience-content::before {
+	left: -42px;
+}
+
+.experience-title {
+	font-size: 1.25rem;
+	font-weight: 600;
+	color: var(--text-dark);
+	margin-bottom: 0.5rem;
+}
+
+.experience-company {
+	font-size: 1rem;
+	font-weight: 500;
+	color: var(--primary-color);
+	margin-bottom: 0.5rem;
+}
+
+.experience-period {
+	font-size: 0.875rem;
+	color: var(--text-light);
+	margin-bottom: 1rem;
+	padding: 0.25rem 0.75rem;
+	background: rgba(37, 99, 235, 0.1);
+	border-radius: 1rem;
+	display: inline-block;
+}
+
+.experience-description {
+	color: var(--text-light);
+	line-height: 1.6;
+	margin-bottom: 1.5rem;
+}
+
+.experience-tech {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	justify-content: flex-end;
+}
+
+.experience-item:nth-child(even) .experience-tech {
+	justify-content: flex-start;
+}
+
+.tech-tag {
+	padding: 0.25rem 0.75rem;
+	background: var(--gradient-primary);
+	color: white;
+	border-radius: 1rem;
+	font-size: 0.75rem;
+	font-weight: 500;
+}
+
+@media (max-width: 768px) {
+	.experience-timeline::before {
+		left: 2rem;
+	}
+
+	.experience-item {
+		width: calc(100% - 4rem);
+		left: 4rem !important;
+		text-align: left !important;
+	}
+
+	.experience-content::before {
+		left: -42px !important;
+	}
+
+	.experience-tech {
+		justify-content: flex-start !important;
+	}
+}
