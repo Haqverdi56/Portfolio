@@ -17,12 +17,12 @@ const ProjectsSection = () => {
 		},
 		{
 			id: 2,
-			title: 'Bubble Game',
-			description: 'Sadə və əyləncəli bubble oyunu JavaScript ilə hazırlanmış.',
-			image: '/bubble.png',
-			technologies: ['HTML5', 'CSS', 'JavaScript'],
-			github: 'https://github.com/Haqverdi56/Bubble-game-js',
-			demo: 'https://bubble-game-js.vercel.app/',
+			title: 'Learn English',
+			description: 'İngilis dilini öyrənmək üçün əyləncəli və interaktiv veb tətbiqi.',
+			image: '/englishlearn.png',
+			technologies: ['React', 'Framer Motion', 'Lucide React', 'Tailwind'],
+			github: 'https://github.com/Haqverdi56/Learn-English',
+			demo: 'https://learn-english-haki.vercel.app/',
 		},
 		{
 			id: 3,
@@ -41,6 +41,15 @@ const ProjectsSection = () => {
 			technologies: ['React', 'API', 'Charts'],
 			github: 'https://github.com/Haqverdi56/Weather-api',
 			demo: 'https://weather-api-eta.vercel.app/',
+		},
+		{
+			id: 5,
+			title: 'Bubble Game',
+			description: 'Sadə və əyləncəli bubble oyunu JavaScript ilə hazırlanmış.',
+			image: '/bubble.png',
+			technologies: ['HTML5', 'CSS', 'JavaScript'],
+			github: 'https://github.com/Haqverdi56/Bubble-game-js',
+			demo: 'https://bubble-game-js.vercel.app/',
 		},
 	];
 
