@@ -18,7 +18,7 @@ const ProjectsSection = () => {
 		{
 			id: 2,
 			title: 'Learn English',
-			description: 'İngilis dilini öyrənmək üçün əyləncəli və interaktiv veb tətbiqi.',
+			description: 'İngilis dilini öyrənmək üçün əyləncəli və interaktiv web tətbiqi.',
 			image: '/englishlearn.png',
 			technologies: ['React', 'Framer Motion', 'Lucide React', 'Tailwind'],
 			github: 'https://github.com/Haqverdi56/Learn-English',
