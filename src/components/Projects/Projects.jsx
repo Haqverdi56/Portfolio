@@ -26,6 +26,15 @@ const ProjectsSection = () => {
 		},
 		{
 			id: 3,
+			title: 'Football Connect ',
+			description: 'Komandanı toplayaraq futbol oynamaq.',
+			image: 'https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+			technologies: ['JavaScript', 'React', 'Framer-Motion'],
+			github: 'https://github.com/Haqverdi56/FootballMatching',
+			demo: 'https://football-matching.vercel.app/',
+		},
+		{
+			id: 4,
 			title: 'IP Address Tracker',
 			description: 'IP adres daxil edərək məkan göstərmə tətbiqi.',
 			image: '/ipaddress.png',
@@ -34,7 +43,7 @@ const ProjectsSection = () => {
 			demo: 'https://ip-address-tracker-ten-pi.vercel.app/',
 		},
 		{
-			id: 4,
+			id: 5,
 			title: 'Hava Durumu',
 			description: 'Gözəl UI/UX olan hava durumu tətbiqi geolocation və forecast xüsusiyyətləri ilə.',
 			image: 'https://www.bigcountryhomepage.com/wp-content/uploads/sites/56/2019/07/Weather-v2.jpg?w=640&h=360&crop=1',
@@ -43,7 +52,7 @@ const ProjectsSection = () => {
 			demo: 'https://weather-api-eta.vercel.app/',
 		},
 		{
-			id: 5,
+			id: 6,
 			title: 'Bubble Game',
 			description: 'Sadə və əyləncəli bubble oyunu JavaScript ilə hazırlanmış.',
 			image: '/bubble.png',
